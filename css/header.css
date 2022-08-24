@@ -1,0 +1,147 @@
+.header {
+  border: 1px solid #000000;
+  height: 97px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-block {
+  display: flex;
+  justify-content: space-around;
+  margin: 17px 0;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-items {
+  margin-right: 27px;
+}
+
+.navigation-button,
+.navigation-button-services,
+.navigation-button-products {
+  font-size: 16px;
+}
+
+.navigation-button,
+.navigation-button-services {
+  color: #000;
+}
+
+.navigation-button-services {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navigation-button-products {
+  position: relative;
+  color: #EF7F04;
+}
+
+.header-rectangle {
+  position: absolute;
+  width: 76px;
+  height: 4px;
+  top: -40px;
+  background: #EF7F04;
+}
+
+.buttons {
+  position: relative;
+  width: 355px;
+  top: 11px;
+}
+
+.buttons-order {
+  width: 169px;
+  height: 40px;
+  border-radius: 3px;
+  background: #EF7F04;
+  border: none;
+  color: white;
+  font-size: 13px;
+  margin-right: 13px;
+}
+
+.buttons-calc {
+  width: 169px;
+  height: 40px;
+  border-radius: 3px;
+  background: #3B3A63;
+  border: none;
+  color: white;
+  font-size: 13px;
+}
+
+.buttons-img {
+  margin-right: 9px;
+}
+
+.header__burger {
+  display: none;
+}
+
+.header__burger:hover {
+  opacity: 0.7;
+}
+
+.buttons-order:hover {
+  opacity: 0.7;
+}
+
+.buttons-calc:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 992px) {
+  .navigation {
+    display: none;
+  }
+
+  .header-block {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 55px;
+  }
+
+  .header__burger {
+    position: relative;
+    display: inline-block;
+    top: 31px;
+    width: 56px;
+    height: 6px;
+    background: #EF7F04;
+    margin-right: 44px;
+  }
+
+  .header__burger:after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    bottom: 12px;
+    width: 56px;
+    height: 6px;
+    background: #EF7F04;
+    margin-right: 44px;
+  }
+
+  .header__burger:before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    top: 12px;
+    width: 56px;
+    height: 6px;
+    background: #EF7F04;
+    margin-right: 44px;
+  }
+
+  .header-block__logo {
+    display: flex;
+  }
+
+  .header__burger:hover {
+    cursor: pointer;
+  }
+}

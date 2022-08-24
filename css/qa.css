@@ -1,0 +1,53 @@
+.qa {
+  background-color: #EF7F1A;
+  padding: 40px 101px 49px 101px;
+  border-radius: 3px;
+}
+
+.qa__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+summary {
+  display: block;
+}
+
+.qa__questions {
+  background-color: #EEEEF3;
+  padding: 31px 20px;
+  margin: 14px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.qa__summary {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2F2F51;
+  cursor: pointer;
+}
+
+.qa__details {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.qa__details :hover {
+  color: #EF7F04;
+}
+
+@media screen and (max-width: 992px) {
+  .qa {
+    margin: 0 56px;
+    padding: 40px 40px 49px 40px;
+  }
+}

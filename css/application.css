@@ -1,0 +1,105 @@
+.main {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url('/img/application/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.application {
+  display: flex;
+  padding: 69px 77px 65px 77px;
+}
+
+.application-info {
+  padding: 60px 52px 66px 0px;
+}
+
+.info__title {
+  font-size: 36px;
+  font-weight: 100;
+  line-height: 42px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+  margin-bottom: 13px;
+}
+
+.info__title-company {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: #EF7F04;
+}
+
+.info__benefits {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info__benefits img {
+  margin-bottom: 20px;
+}
+
+.info__benefits-description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+}
+
+.application-form {
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 43px 42px 66px 42px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.application-form__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 12px;
+  color: #2F2F51;
+}
+
+.application-form__input {
+  width: 322.5px;
+  height: 40px;
+  background: #E2E2E2;
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 15px auto;
+}
+
+.input__checkbox {
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+}
+
+.checkbox_text-policy {
+  color: #4B67AF;
+}
+
+.application-form__button {
+  margin: 25px auto 0px auto;
+  width: 199px;
+  height: 54.5px;
+  background: #EF7F04;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 992px) {
+  .application__container {
+    display: none;
+  }
+}

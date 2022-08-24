@@ -1,0 +1,148 @@
+.company__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2F2F51;
+  text-align: center;
+  margin-top: 95px;
+}
+
+.company__button {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.company__button button {
+  border: none;
+  background: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  padding: 8px 24px;
+  cursor: pointer;
+  outline: none;
+}
+
+.company__button button:focus {
+  color: #ffffff;
+  background: #ef7f04;
+}
+
+.company-card {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-top: 35px;
+  justify-content: space-between;
+}
+
+.company-card__content {
+  padding: 46px 52px 61px 50px;
+}
+
+.company-card__content img {
+  height: 140px;
+  width: 199px;
+}
+
+.discription__paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  height: 153px;
+  width: 305px;
+  margin-left: 198px;
+}
+
+.company-card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.company-advantages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 68px;
+}
+
+.company-advantages__item {
+  display: flex;
+  margin-bottom: 82px;
+}
+
+.item__block {
+  width: 215px;
+  height: 114px;
+  margin-left: 23px;
+}
+
+.item-block__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.item-block__description {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.company__order-button {
+  width: 312px;
+  height: 54.5px;
+  background: #EF7F1A;
+  border-radius: 3px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 700;
+  margin: 0 auto;
+  border: none;
+}
+
+.company__order-button:hover {
+  background: #2F2F51;
+}
+
+@media screen and (max-width: 992px) {
+  .company-card {
+    margin-left: 52px;
+    margin-right: 52px;
+    width: 880px;
+  }
+
+  .company-card__content {
+    padding: 46px 52px 61px 28px;
+    width: 433px;
+  }
+
+  .discription__paragraph {
+    height: 153px;
+    width: 305px;
+    margin-left: 40px;
+  }
+
+  .company-card__img img {
+    height: 461px;
+    width: 447px;
+  }
+
+  .company-advantages {
+    justify-content: center;
+  }
+
+  .company-advantages__item {
+    width: 34%;
+  }
+
+}
